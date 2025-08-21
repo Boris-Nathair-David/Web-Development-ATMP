@@ -1,0 +1,748 @@
+@media (max-width: 768px) {
+    .main_banner1{
+        width:100%;
+        height: 100%;
+        min-height:800px;
+        margin: auto;
+        background-image:url("../../Images/Backgrounds/videoblocks-ping-pong-ball-getting-flamed-in-slow-motion-on-black-background_s0hlzfjhm_thumbnail-full01.png");
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: 55% 0%;
+           
+    
+    }
+    
+    /* -- Diseño de la barra -- */
+    
+    .main_banner1 nav ul li a{
+        width:6.5em; 
+        font-size:1.6em;
+        text-align:left;
+        color:rgba(255,255,255,0.8);
+    }
+    
+    .main_banner1 nav ul li a:hover{
+        color:rgba(255,255,255,1);
+    }
+    
+    /* -- Redimención de la imagen y animación -- */
+
+    .main_banner1 .bar-header .navbar-brand{
+        width:30%;
+    }
+    
+    nav a img{
+        width:30%;
+        animation-name:ani_image;
+        animation-duration:4s;
+        position:relative;
+    }
+    
+    @keyframes ani_image{
+        0%{left:-35%;}
+        25%{left:0%;}
+        
+    }
+    
+    
+    /* -- Diseño del jumbotron -- */
+    
+    .main_banner1 .jumbotron{
+        width:85%;
+        position:relative;
+        left:12%;
+        text-align:center;
+        color:#fff;
+        background-color:rgba(0,0,0,0);
+        margin:auto;
+        padding:0;
+        padding-top:5%;
+    }
+    
+    .main_banner1 .jumbotron h1{
+        font-size:2em;
+    }
+
+    /* -- Diseño del boton de barra de navegación -- */
+
+    .main_banner1 .fa-bars{
+        color:#2091ce;
+        border:solid 1px rgba(255,255,255,0.1);
+        font-size:1.5em;
+    }
+    
+    .main_banner1 .fa-bars span:hover{
+        background-color:rgba(255,255,255,1);   
+    }
+
+   
+
+    /* ------------------------ Diseño del banner2 y el video demostrativo del banner2 ----------------- */
+
+.main_banner2{
+    width:100%;
+    height:auto;
+    min-height:650px;
+    margin: auto;
+    background-image: url("../../Images/Backgrounds/black-wallpaper-1920x1080-8.jpg");
+	background-size:120em;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+
+/* -- Diseño del tope de los banners -- */
+
+ .top-ban{
+    width:100%;
+    min-height:15px;
+    background-color:rgba(0, 77, 153,1);
+    color:#fff;
+    text-align:center;
+    border-radius: 0% 0% 20% 20%;
+}
+
+ .top-ban h1{
+    font-size:1.5em;
+}
+
+/* -- Diseño del video del banner2 -- */
+
+.main_banner2 .bot-ban{
+    width:100%;
+    height:600px;
+    margin:auto;
+    padding:0% 0%;
+    padding-top:0;
+}
+
+.main_banner2 .bot-ban video{
+    width:98%;
+    
+    margin:auto;
+    position:relative;
+    left:1%;
+}
+
+/* --------------------------- Diseño del banner3 y el calendario ------------------------- */
+
+.main_banner3{
+    width:100%;
+    height:auto;
+    background-image: url("../../Images/Backgrounds/slide1.png");
+	background-size:120em;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center right;
+}
+
+.main_banner3 .bot-ban{
+    width:100%;
+    padding:3%;
+}
+
+.main_banner3 .cal-desig{
+    width:75%;
+    background-color:rgba(8,53,92,0.97);
+    margin:auto;
+    color:#fff;
+    padding:0.3%;
+    font-size:0.8em;
+    text-align:center;
+}
+
+.main_banner3 .cal-desig button{
+    
+    font-size:0.9em;  
+}
+
+/* --------------------------- Diseño del banner4 y dataTable --------------------- */
+
+.main_banner4{
+    width:100%;
+    margin:auto;
+}
+
+.main_banner4 .bot-ban{
+    padding:5%;
+}
+
+/* -- Diseño del texto izquierdo del banner 4 -- */
+
+.main_banner4 .tex-l{
+    margin:auto;
+    position:relative;
+    top:0%;
+    text-align:center;
+    margin-bottom:1em;
+}
+
+.main_banner4 .tex-l h1{
+    font-size:2.5em;
+    border-bottom: 1px solid black;
+}
+
+.main_banner4 .tex-l p{
+    font-size:1.5em;
+
+}
+
+/* -- Diseño de DataTable -- */
+
+.main_banner4 .rank-r{
+    width:100%;
+    margin:auto;
+    text-align:center;
+}
+
+.rank-r table{
+    margin:auto;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.rank-r tbody tr{
+	color:white;
+}
+
+/* --------------------------- Del footer (pie de pagina) de la sección inicio --------------------------- */
+
+footer{
+    background-color:rgba(0, 77, 153,1);
+    color:#fff;
+    text-align:center;
+    padding:0.5%;
+}
+
+footer h2{
+    text-decoration:underline;
+}
+
+/* -- Diseño de los links a Contactenos, dirección y Galeria -- */
+
+footer .foot-antmp ul{
+    list-style:none;
+}
+
+footer .foot-antmp ul li a{
+	text-decoration:none;
+    color:#fff;
+    font-size:1.3em;
+}
+
+footer .foot-antmp ul li a:hover{
+	color:#2091ce;
+}
+
+/* -- Diseño de los Iconos de las redes Sociales -- */
+
+footer .foot-social .icon-desig{
+    position:relative;
+    top:0.5em;
+}
+
+footer i.fab{
+    width:16%;
+    font-size:3em;
+    color:#fff;
+}
+
+footer i.fab:hover{
+    color:#2091ce;
+}
+
+footer .line-hr{
+    background-color:rgba(0, 36, 56, 0.3);
+}
+
+/* ---------------------------- Diseño de la pagina Asociación --------------------------- */
+
+.boton-ban{
+    width:100%;
+    margin:auto;
+}
+
+/* -- Diseño de los botones de la pagina asociación -- */
+
+.boton-ban .boton-desig{
+    position:relative;
+    left:2%;
+    margin:auto;
+    padding:2%;
+}
+
+.boton-ban .boton-desig button{
+    font-size:2em;
+    padding:10%;
+}
+
+/* -- Diseño de la información de la pagina de asociación -- */
+
+ .descrip-desig .box-des{
+    margin:auto;
+}
+
+.box-des .left-des{
+    width:100%;
+    margin:auto;
+    text-align:center;
+}
+
+.box-des .left-des h2{
+    font-size:1.6em;
+    margin-bottom:1%;
+    text-decoration:underline;
+}
+
+.box-des .left-des img{
+    width:70%;
+    margin-bottom:1%;
+}
+
+.box-des .left-des p{
+    width:90%;
+    font-size:1.5em;
+    margin:auto;
+}
+
+#est-tar .box-des img{
+    width:30%;
+    opacity:0.9;
+}
+
+#est-tar .box-des img:hover{
+    opacity:1;
+}
+
+/* -- Diseño del slider de equipo -- */
+
+.sld-desig{
+    width:80%;
+    margin:auto;
+    text-align:center;
+}
+
+.sld-desig h1{
+    font-size:1.8em;
+    margin-bottom:2%;
+}
+
+/* ------------------------------- Diseño de la pagina Torneo Nacionales ---------------------------------- */
+
+.media-group{
+    width:100%;
+    margin:auto;
+    position:relative;
+    left:1.5%;
+}
+
+.media-group .option-list{
+    width:100%;
+    margin:auto;
+    padding-top:2%;
+}
+
+.media-group .option-list select{
+    width:23%;
+    margin:auto;
+    background-color:#004c99;
+    padding:0.5%;
+    text-align:center;
+    margin:0.5%;
+    border:none;
+    border-radius:2%;
+    color:#fff;
+    
+}
+
+.media-group .option-list optgroup{
+    background-color:#002850;
+}
+
+.media-group .option-list select option{
+    font-size:1em;
+    margin:auto;
+}
+
+.media-group .option-vids{
+    background-color:none;
+    margin:auto;
+    width:100%;
+    position:relative;
+}
+
+.media-group .option-vids video{
+    width:50%;
+    padding:1%;
+    margin:auto;
+    float:left;
+}
+
+/* ------------------------- Diseño de las imagenes y slideshows de la galeria --------------------------- */
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    
+  }
+
+.galery-desig h1{
+    text-align:center;
+    text-decoration:underline;
+    font-weight:bold;
+    padding:1%;
+}
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    box-shadow: 1px 1px 5px grey;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .ant,
+  .sig {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 0;
+    margin-top: -50px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+    /*border-radius: 0 3px 3px 0;*/ 
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .ant i.fas, .sig i.fas{
+      color:white;
+      font-size:1.3em;
+  }
+
+  .ant i.fas:hover, .sig i.fas:hover{
+      color:#2091ce;
+  }
+  
+  /* Position the "sig button" to the right */
+  .sig {
+    right: 2%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color:none;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 6em;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+    font-size:1.3em;
+    box-shadow: 1px 1px 5px grey;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 20%;
+    padding:1.3%;
+    
+  }
+
+  .column img{
+    border:5px solid #000;
+    border-radius:5%;  
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+/* ------------------------ Diseño del formulario de Login y sign up ------------------------------- */
+
+.in-banner2{
+	width:80%;
+	position:relative;
+	top:3em;
+	margin:auto;
+	padding:1em;
+	box-sizing: border-box;
+	color:#fff;
+	text-align:center;
+}
+
+
+.form-banner .formu-desig{
+	width:80%;
+	height:auto;
+	/*background-color:rgba(255,255,255,0.98);*/
+	margin:auto;
+	text-align:center;
+	color:black;
+	position:relative;
+	padding:1.2%;
+	box-shadow: 0px 0.5px 6px black;
+
+} 
+
+/* -- Micro diseño del login -- */
+.login-ban  .formu-desig{
+    width:60%;
+    margin:auto;
+	text-align:center;
+	color:black;
+	position:relative;
+	padding:1%;
+	box-shadow: 0px 0.5px 6px black;
+    font-size:1.2em;
+}
+
+/* ----------------------------- */
+
+.form-banner .formu-desig img{
+	width:20%;
+}
+
+.form-banner .formu-desig h2{
+    font-size:1.6em;
+	margin-bottom:1%;
+}
+
+
+.form-banner .formu-desig label{
+	font-size:1em;
+	width:100%;
+	margin-bottom:2%;
+
+}
+
+.form-banner .formu-desig .text-in{
+	width:75%;
+	padding:0.5%;
+}
+
+.form-banner .formu-desig span{
+	font-size:1.3em;
+}
+
+.form-banner .formu-desig input[type=submit]{
+	width:76%;
+	padding:1%;
+}
+
+
+
+/* -- Diseño sacado para formulario -- */ 
+
+.form-style-5{
+	max-width: 100%;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin:  auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 input[type="password"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,1);
+	border: none;
+	border-radius: 4px;
+	font-size: 1em;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#000;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 input[type="password"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	width:75%;
+	color:#696969;
+	font-size:0.8em;
+
+}
+.form-style-5 .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #004c99;;
+	font-size: 1em;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #08355c;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #2091ce;
+}
+
+/* ----------------------------------------- Diseño de la pagina Contactenos --------------------------------------- */
+
+/* La pagina contactenos usa el desiño del formulario de registro de la pagina sign up */
+
+.main-contact {
+    padding:3%;
+}
+
+.contact-group{
+    width:100%;
+    margin:auto;
+}
+
+.contact-group h1{
+    font-size:2.5em;
+    text-align:center;
+}
+
+.contact-group p{
+    font-size:1.3em;
+    text-align:justify;
+    
+}
+
+.contact-group i.fas, i.fab{
+    color:#2091ce;
+    font-size:1.3em;
+}
+
+.contact-group i.fas:hover, i.fab:hover {
+    color:#004c99;
+}
+
+.contact-group li{
+    list-style:none;
+    float:left;
+    padding-left:8%;
+}
+
+.contact-group li a{
+    text-decoration:none;
+    color:#000;
+    font-size:1.3em;
+    font-weight:normal;
+    line-height: 3em;
+}
+
+.contact-group li a:hover{
+    color:#004c99;
+}
+
+.contact-group .fb-page{
+    margin:0 auto;
+    width:100%;
+    position:relative;
+    left:0;
+}
+
+.contact-group img{
+    width:20%;
+}
+
+.contact-group .formu-desig{
+    text-align:center;
+    position:relative;
+    top:3em;
+    left:10%;
+}
+
+.contact-group .formu-desig h2{
+    font-size:1.5em;
+}
+
+
+}
